@@ -17,7 +17,7 @@
         <div class="flex flex-wrap justify-center gap-4 mt-8">
             <a
             class="inline-flex items-center px-5 py-3 text-sm font-medium text-white transition-colors bg-[#171515] border-2 border-[#171515] rounded hover:bg-white hover:text-[#171515] focus:outline-none focus:ring active:opacity-75"
-            href="/github"
+            href="https://github.com/alvingxv"
             target="_blank"
             rel="noopener noreferrer"
           >
