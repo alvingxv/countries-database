@@ -1,5 +1,5 @@
 <svelte:head> 
-    <title>🌐About🌐</title>
+    <title>About - Countries Database</title>
 </svelte:head>
 
 <section class="bg-[#111827]">

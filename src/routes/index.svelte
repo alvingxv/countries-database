@@ -17,7 +17,7 @@
 </script>
 
 <svelte:head>
-	<title>🌐Countries Database🌐</title>
+	<title>Countries Database</title>
 </svelte:head>
 
 <section class="bg-[#111827]">

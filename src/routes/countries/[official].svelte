@@ -38,7 +38,7 @@
 </script>
 
 <svelte:head>
-	<title>🌐{country[0].name.official} - Database🌐</title>
+	<title>{country[0].name.official} - Database</title>
 </svelte:head>
 
 <section class="bg-[#111827]">
