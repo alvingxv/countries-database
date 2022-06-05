@@ -8,10 +8,10 @@
 -->
 
 <header class="shadow-sm bg-slate-800">
-	<div class="flex items-center justify-between h-16 max-w-screen-xl px-4 mx-auto">
+	<div class="flex items-center justify-center h-16 max-w-screen-xl px-4 mx-auto">
 
 		<nav
-			class="items-center justify-center hidden space-x-8 text-sm font-medium lg:flex lg:flex-1 lg:w-0"
+			class="flex items-center justify-center space-x-8 text-sm font-medium lg:flex lg:flex-1 lg:w-0"
 		>
 			<a class="text-slate-300" href="/">Home</a>
 			<a class="text-slate-300" href="/about">About</a>

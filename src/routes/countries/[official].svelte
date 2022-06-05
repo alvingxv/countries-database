@@ -41,21 +41,27 @@
 	<title>{country[0].name.official} - Database</title>
 </svelte:head>
 
-<section class="bg-[#111827]">
-	<main class="max-w-4xl mx-auto p-5 py-10 h-full select-none flex flex-col  ">
-		<article class="grid w-full grid-cols-1 p-5 bg-[#1F2937] lg:grid-cols-2 rounded-2xl">
-			<aside class="order-2 grid gap-5 p-5">
+<section
+	class="bg-[#111827] bg-[url('https://wallpapercave.com/wp/wp2593836.jpg')] bg-cover bg-fixed flex-grow h-full"
+>
+	<article
+		class="flex flex-row justify-center items-center lg:flex-row place-items-center h-full backdrop-blur-sm"
+	>
+		<div
+			class="flex items-center flex-col lg:flex-row justify-center w-2/3 p-5 bg-[#1F242D] rounded-2xl"
+		>
+			<aside class="flex items-center justify-center gap-5 p-5 w-1/2">
 				<img
-					class="object-cover rounded-xl justify-self-center"
+					class="object-fill rounded-xl justify-center items-center"
 					src={country[0].flags.png}
 					alt={country[0].name.common}
 				/>
 			</aside>
-			<aside class="order-1 gap-5 p-5">
+			<aside class="flex items-center justify-center gap-5 p-5 w-1/2">
 				<section>
-					<div class="grid grid-cols-3 gap-2">
+					<div class="grid grid-cols-3 p-5 gap-10">
 						<div>
-							<span><h1>Name</h1></span>
+							<h1>Name</h1>
 							<p class="font-bold">{country[0].name.official}</p>
 						</div>
 						<div>
@@ -71,17 +77,17 @@
 							<p class="font-bold">{country[0].region}</p>
 						</div>
 					</div>
-					<div class="grid grid-cols-3 gap-2">
+					<div class="grid grid-cols-3 p-5 gap-10">
 						<div>
 							<span><h1>Currencies</h1></span>
 							<p class="font-bold ">{currenciesname}</p>
 						</div>
-						<div class="col-span-2">
+						<div>
 							<span><h1>Symbol</h1></span>
 							<p class="font-bold ">{currenciessymbol}</p>
 						</div>
 					</div>
-					<div class="grid grid-cols-3 gap-2">
+					<div class="grid grid-cols-3 p-5 gap-10">
 						<div>
 							<span><h1>Language</h1></span>
 							<p class="font-bold">
@@ -90,15 +96,15 @@
 								{/each}
 							</p>
 						</div>
-						<div class="col-span-2">
+						<div>
 							<span><h1>Population</h1></span>
 							<p class="font-bold ">{country[0].population}</p>
 						</div>
 					</div>
 				</section>
 			</aside>
-		</article>
-	</main>
+		</div>
+	</article>
 </section>
 
 <div class="flex-grow" />
